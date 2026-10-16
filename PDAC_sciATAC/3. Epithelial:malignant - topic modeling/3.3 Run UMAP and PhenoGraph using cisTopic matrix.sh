@@ -1,0 +1,5 @@
+# Run UMAP using scaled cisTopic cell-by-topic score matrix
+scitools matrix-umap -O cisTopic100Alpha50_EpithelialAllSamplesTSSMixnFrags1kFRIS0.4_AllSamplesMACS3_Topics50_ScaledMatrix_UMAP_n30_minDist0.1 -n 30 -d 0.1 cisTopic100Alpha50_EpithelialAllSamplesTSSMixnFrags1kFRIS0.4_AllSamplesMACS3_Topics50_Matrix_Scaled.matrix
+
+# Run PhenoGraph using scaled cisTopic cell-by-topic score matrix
+scitools matrix-pg -k 15 cisTopic100Alpha50_EpithelialAllSamplesTSSMixnFrags1kFRIS0.4_AllSamplesMACS3_Topics50_Matrix_Scaled.matrix

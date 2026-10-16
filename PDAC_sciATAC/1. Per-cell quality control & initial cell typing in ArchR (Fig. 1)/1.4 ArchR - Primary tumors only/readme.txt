@@ -1,0 +1,1 @@
+# Note: The scripts listed in this section (Section 1.4) cover the multi-step quality filtering of primary tumors only ArchR. Cells that pass filters (see 1.4.1 to 1.4.3) are used for ArchR's iterative implementation of MACS v2 for peak calling (Section 2.2); stromal and immune subsets of these passing cells are used for all stromal and immune epigenomic analyses, respectively.
